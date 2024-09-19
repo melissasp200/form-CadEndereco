@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Cadastro de Endereço</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
+
+<div>
+    <h2>Cadastro de Endereço</h2>
+</div>
+
 <body>
-    
+    <div class="container">
+
+     <div class="row">
+
+        <div class="col-2">
+            <label for="">CEP</label>
+            <input type="text" id="nomeUser" class="form-control">
+        </div>
+
+     </div>
+
+        <div class="row">
+            <div class="col-4">
+                <label for="">Rua</label>
+                <input type="text" id="emailUser" class="form-control">
+            </div>
+
+            <div class="col-1">
+                <label for="">N.º</label>
+                <input type="text" id="CPFuser" class="form-control">
+            </div>
+
+            <div class="col-6">
+                <label for="">Bairro</label>
+                <input type="text" id="CPFuser" class="form-control">
+            </div>
+
+        </div>
+
+<div class="row">
+    <div class="col-3">
+        <label for="">Complemento</label>
+        <input type="text" id="CPFuser" class="form-control"><br>
+    </div>
+
+    <div class="col-5">
+        <label for="">Cidade</label>
+        <input type="text" id="CPFuser" class="form-control"><br>
+    </div>
+
+      <div class="col-4">
+        <label for="">Estado</label>
+        <input type="text" id="CPFuser" class="form-control"><br>
+      </div>
+
+    </div>
+        <button type="button" onclick="salvarUser()" class="btn btn-primary">Entrar</button>
+    </div>
 </body>
+
+<script src='cade.js'></script>
+
 </html>
