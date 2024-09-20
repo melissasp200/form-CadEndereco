@@ -9,5 +9,11 @@ const limparFormulario = () => {
   document.getElementById('uf').value = '';
   document.getElementById('bairro').value = '';
   document.getElementById('complemento').value = '';
+  document.getElementById('numero').value = '';
 
 }
+
+//Verifica se o CEP é válido
+
+const eNumero = (numero) => /^[0-9]+$/.test(numero);
+const 
